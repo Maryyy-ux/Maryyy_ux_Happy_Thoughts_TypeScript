@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './thoughtForm.css';
+import './ThoughtForm.css';
 
 interface ThoughtFormProps {
     addThought: (thought: { _id: string; message: string; hearts: number; createdAt: string }) => void;
